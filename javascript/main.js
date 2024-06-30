@@ -1,6 +1,5 @@
-const freemaninit = (function() {
+const MoyyuevaUMinit = (function() {
     "use strict";
-    // variable 
     var header = document.querySelector('#headermain');
     var body = document.querySelector('body');
     var continuousElements = document.getElementsByClassName("sectionblock");
@@ -329,6 +328,15 @@ const freemaninit = (function() {
     return {
         AppInit: AppInit
     };
+
+    document.addEventListener('DOMContentLoaded', function () {
+        let cnt = localStorage.getItem('visitCount');
+        if (cnt === null) { cnt = 0; };
+        cnt++;
+        localStorage.setItem('visitCount', cnt);
+        document.getElementById('counter').innerText = cnt;
+    });
+    
 }());
 
-freemaninit.AppInit();
+MottuevaUMinit.AppInit();
