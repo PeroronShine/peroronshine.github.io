@@ -1,4 +1,4 @@
-const MoyyuevaUMinit = (function() {
+const MottuevaUMinit = (function() {
     "use strict";
     var header = document.querySelector('#headermain');
     var body = document.querySelector('body');
