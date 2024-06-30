@@ -1,4 +1,4 @@
-const MottuevaUMinit = (function() {
+const freemaninit = (function() {
     "use strict";
     var header = document.querySelector('#headermain');
     var body = document.querySelector('body');
@@ -330,4 +330,4 @@ const MottuevaUMinit = (function() {
     };
 }());
 
-MottuevaUMinit.AppInit();
+freemaninit.AppInit();
